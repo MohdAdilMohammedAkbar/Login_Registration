@@ -1,0 +1,66 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/screen1"
+    android:gravity="center_vertical|center_horizontal"
+    android:id="@+id/screen_background"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal|bottom">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:text="Quality"
+            android:textStyle="bold"
+            android:id="@+id/Heading"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sell your farm fresh products directly to consumers, cutting out the middleman and reducing emissions of the global supply chain."
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/Description"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/toggle1"
+            android:id="@+id/Toggle"
+            />
+
+        <Button
+            android:id="@+id/JoinButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Join the movement"
+            android:backgroundTint="@color/background"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:id="@+id/Login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Login"
+            android:gravity="center"
+            android:paddingTop="16dp"
+
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
